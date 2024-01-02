@@ -1,0 +1,321 @@
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 18vh;
+    margin: 0 auto ;
+}
+.login-form{
+ position: relative;
+ text-align: center;  
+ background: linear-gradient(#072ac8,#7209b7);
+ width: 450px;
+ height: 500px;
+}
+.login-form h2{
+    position: absolute;
+    left: 100px;
+    top: 40px;
+    font-size: 40px;
+    font-weight: 500;
+    color: #a6d9f7;
+    
+    
+}
+.login-form h2 span{
+    font-weight: 800;
+    color: #a6d9f7;
+    background: linear-gradient(#9d4edd,#1e96fc);
+    color: transparent;
+    background-clip: text;
+}
+.login-form .form-log{
+    position: absolute;
+    top: 130px;
+    left: 100px;
+    margin: 0 auto;
+}
+.login-form .form-log .form{
+    margin: 14px;
+    font-size: 25px;
+    font-weight: 200;
+}
+.login-form .form-log .form input{
+    width: 240px;
+    height: 35px;
+    color: #a6d9f7;
+    background: transparent;
+     outline: none;
+     border: none;
+     border-bottom:1px solid #00000033;
+     transition: 400ms;
+}
+.login-form .form-log .form input :valid,
+.login-form .form-log .form input:focus{
+    border: 1px solid #a6d9f7;
+}
+.login-form .form-log .form input:hover{
+    border: 1px solid #a6d9f7;
+}
+.login-form .form-log button{
+   
+    font-size: 15px;
+    margin: 13px 7px;
+    width: 110px;
+    height: 35px;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms ease-in;
+}
+.login-form .form-log button:hover{
+    background: linear-gradient(#9d4edd,#1e96fc);
+    color: #a6d9f7;
+    font-weight: 400;
+}
+
+.right-img{
+    position: relative;
+    width: 500px;
+ height: 500px;
+
+}
+.right-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.forget-pass{
+    font-size: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-content: center;
+     width: 260px;
+     padding: 0 10px;
+     
+}
+.forget-pass .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.forget-pass span:hover{
+    color: #a6d9f7;
+    cursor: pointer;
+}
+.social{
+    display: flex;
+    margin-top: 100px;
+    align-items: center;
+}
+.social .ID{
+    margin: 0 10px ;
+    width: 28px;
+    height: auto;
+    padding: 3px;
+    border-radius: 50%;
+    transition: 400ms ease-out;
+}
+.social .ID:hover{
+    box-shadow: 2px 2px 10px 3px rgba(0, 0, 0, 0.3);
+    color: #a6d9f7;
+    cursor: pointer;
+}
+@media only screen and (max-width: 1024px) {
+    .login-form{
+     width: 370px;
+     height: 420px;
+    }
+    .login-form h2{
+        font-size: 30px;
+    }
+    .login-form .form-log{
+        top: 100px;
+        left: 90px;
+    }
+    .login-form .form-log .form{
+        gap: 10px;
+        font-size: 22px;
+        
+    }
+    .login-form .form-log button{  
+        font-size: 13px;
+        width: 95px;
+        height: 30px;
+    }
+    .right-img{
+        width: 370px;
+     height: 420px;
+    
+    }
+    
+    .forget-pass{
+        font-size: 8px;
+         
+    }
+    .social{
+      
+        margin-top: 80px;
+    }
+    .social .ID{
+        width: 24px;
+    }
+}
+
+@media only screen and (max-width: 786px){
+    .login-form{
+        width: 300px;
+        height: 360px;
+       }
+       .login-form h2{
+           font-size: 25px;
+           left: 65px;
+       }
+       .login-form .form-log{
+           top: 80px;
+           left: 50px;
+       }
+       .login-form .form-log .form{
+           gap: 10px;
+           font-size: 17px;
+           
+       }
+       .login-form .form-log .form input{
+        width: 140px;
+        height: 27px;
+      
+    }
+       .login-form .form-log button{  
+           font-size: 11px;
+           width: 70px;
+           height: 25px;
+       }
+       .right-img{
+           width: 300px;
+        height: 360px;
+       
+       }
+       
+       .forget-pass{
+           font-size: 6px;
+           width: 180px;
+           padding: 0 15px;
+           margin: 0 auto;
+            
+       }
+       .forget-pass input{
+        width: 8px;
+       }
+       .social{
+           margin-top: 65px;
+       }
+       .social .ID{
+           width: 20px;
+       }
+}
+@media only screen and (max-width: 480px){
+    .login-form{
+        width: 180px;
+        height: 250px;
+       }
+       .login-form h2{
+           font-size: 18px;
+           left: 40px;
+       }
+       .login-form .form-log{
+           top: 60px;
+           left: 30px;
+       }
+       .login-form .form-log .form{
+           font-size: 10px;
+           
+       }
+       .login-form .form-log .form input{
+        width: 120px;
+        height: 25px;
+      
+    }
+       .login-form .form-log button{  
+           font-size: 8px;
+           width: 60px;
+           height: 20px;
+       }
+       .right-img{
+           width: 180px;
+        height: 250px;
+       
+       }
+       
+       .forget-pass{
+           width: 150px;
+           padding: 0 12px;
+          
+            
+       }
+       .forget-pass input{
+        width: 8px;
+       }
+       .social{
+           margin-top: 10px;
+           font-size: 10px;
+       }
+       .social .ID{
+        margin: 0 3px ;
+        width: 14px;  
+        padding: 2px;
+       }
+    
+}
+@media only screen and (max-width: 350px){
+    .login-form{
+        width: 150px;
+        height: 250px;
+       }
+       .login-form h2{
+           font-size: 14px;
+           left: 35px;
+       }
+       .login-form .form-log{
+           top: 60px;
+           left: 20px;
+       }
+       .login-form .form-log .form{
+           font-size: 8px;
+           
+       }
+       .login-form .form-log .form input{
+        width: 100px;
+        height: 25px;
+      
+    }
+       .login-form .form-log button{  
+           font-size: 5px;
+           width: 50px;
+           height: 15px;
+       }
+       .right-img{
+           width: 150px;
+        height: 250px;
+       
+       }
+       
+       .forget-pass{
+           width: 140px;
+           padding: 0 12px;
+          font-size: 5px;
+          margin-top: -8px;
+            
+       }
+       .forget-pass input{
+        width: 8px;
+       }
+       .social{
+           margin-top: 10px;
+           font-size: 9px;
+       }
+    
+    
+}
